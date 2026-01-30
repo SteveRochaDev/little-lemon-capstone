@@ -1,0 +1,46 @@
+/* BookingForm.css - styles for BookingForm component */
+.booking-form {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #fff;
+  max-width: 500px; /* limit form width */
+  margin-left: auto;
+  margin-right: auto; /* center form */
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* space between inputs */
+}
+
+/* Make each fieldset a vertical flex container so we can control spacing between label/input pairs */
+.booking-form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* default gap for fieldsets */
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Increase spacing specifically in the first fieldset (Customer Information) */
+.booking-form fieldset:first-of-type {
+  gap: 20px; /* more space between Name, Email, Phone */
+}
+
+.booking-form input {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%; /* fill form width */
+  box-sizing: border-box; /* prevent overflow */
+}
+
+.booking-form button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.booking-form .error {
+  color: red;
+  font-size: 0.85rem;
+}

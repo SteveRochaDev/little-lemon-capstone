@@ -1,0 +1,98 @@
+/* ReserveTable.css - styles for ReserveTable component */
+.reserve-table {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  max-width: 520px; /* keeps form inside rectangle */
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.reserve-table h2 {
+  margin: 0 0 14px 0;
+  font-size: 1.25rem;
+  color: var(--dark-text, #333);
+}
+
+/* Customer and reservation sections - now styled as distinct boxes */
+.reserve-table .customer-info,
+.reserve-table .reservation-details {
+  background: #fbfbfb;
+  border: 2px solid #000; /* clear black border around each section */
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* vertical spacing between fields inside each box */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+/* Slightly larger gap for the customer-info block (Name / Email / Phone) */
+.reserve-table .customer-info {
+  gap: 20px;
+}
+
+/* Reservation box separated from customer box */
+.reserve-table .reservation-details {
+  margin-top: 14px;
+}
+
+/* Remove per-input margins: spacing is controlled by the container gap */
+.reserve-table .customer-info > input,
+.reserve-table .reservation-details > input {
+  margin-bottom: 0;
+}
+
+/* Make section headings subtle and well spaced */
+.reserve-table h3 {
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Inputs: consistent, modern look */
+.reserve-table input {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+  -webkit-appearance: none; /* remove date/time native styling differences on some browsers */
+}
+
+.reserve-table input:focus {
+  outline: none;
+  border-color: var(--primary-color, #f4ce14);
+  box-shadow: 0 0 0 3px rgba(244,206,20,0.12);
+  background-color: #fff;
+}
+
+/* Make the submit button more prominent and aligned */
+.reserve-table button {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary-color, #f4ce14);
+  color: #222;
+  font-weight: 700;
+}
+
+/* Small helpers for small screens */
+@media (max-width: 420px) {
+  .reserve-table {
+    padding: 16px;
+    max-width: 100%;
+  }
+  .reserve-table h2 { font-size: 1.1rem; }
+}

@@ -1,0 +1,53 @@
+/* Header.css - Little Lemon branding */
+
+.header {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  padding: 16px 24px;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* smaller gap between logo and brand name */
+}
+
+.logo {
+  width: 120px; /* keep logo big */
+  height: auto;
+}
+
+.brand-name {
+  font-size: 2.2rem; /* bigger text to match logo */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--primary-color);
+  text-decoration: underline;
+}

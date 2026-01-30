@@ -1,0 +1,30 @@
+/* CustomerDetails.css - styles for CustomerDetails component */
+.customer-details {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #fff;
+  max-width: 500px; /* ensures form doesn't overflow */
+  box-sizing: border-box;
+}
+
+.customer-details h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.customer-details form input {
+  display: block;
+  width: 100%;      /* fills the form container */
+  max-width: 100%;  /* prevents overflow */
+  padding: 8px;
+  margin-bottom: 16px; /* more vertical space between inputs */
+  box-sizing: border-box; /* includes padding/border in width */
+}
+
+.customer-details button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+}

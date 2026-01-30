@@ -1,0 +1,32 @@
+/* BookingsTable.css - styles for BookingsTable component */
+.bookings-table {
+  border: 1px solid #ccc;
+  padding: 16px; /* Add space inside the container */
+  margin: 16px auto;
+  background-color: #fff;
+  max-width: 800px; /* limit width */
+  box-sizing: border-box;
+}
+
+.bookings-table h2 {
+  margin-top: 0; /* avoid extra top margin */
+  margin-bottom: 12px; /* space below title */
+}
+
+.bookings-table p {
+  margin: 0; /* remove default margin */
+  padding: 0;
+}
+
+.bookings-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.bookings-table th,
+.bookings-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}

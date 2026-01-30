@@ -1,0 +1,30 @@
+/* App.css - Global app styles */
+
+:root {
+  --primary-color: #f4ce14; /* Lemon yellow */
+  --secondary-color: #495e57; /* Dark green/grey */
+  --accent-color: #f25f4c; /* Coral */
+  --light-bg: #f7f7f7;
+  --dark-text: #333333;
+
+  --font-main: 'Arial', sans-serif;
+  --font-heading: 'Verdana', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--light-bg);
+  color: var(--dark-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
