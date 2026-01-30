@@ -1,75 +1,79 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Little Lemon Capstone: Table Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Little Lemon Logo](src/assets/logo.png)  
 
-## Available Scripts
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Overview
+This is the **Capstone Project** for the Front-End Developer course on Coursera.  
+The project is a **table booking system** for the fictional "Little Lemon" restaurant.  
+It allows users to reserve tables, input customer information, and view all bookings in a structured table.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- User-friendly **form for reserving tables**
+- Customer details input: **Name, Email, Phone**
+- Reservation details: **Date, Time, Number of Guests**
+- Displays all bookings in a **dynamic table**
+- **Responsive design** for mobile and desktop
+- Basic **form validation** to ensure correct inputs
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+- **React.js** (functional components, hooks, state management)
+- **CSS** (modular stylesheets for each component)
+- **JavaScript ES6**
+- **Git & GitHub** for version control
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+### Prerequisites
+- Node.js installed (v18+ recommended)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
+Clone the repository:
+```bash
+git clone https://github.com/SteveRochaDev/little-lemon-capstone.git
+```
+Install dependencies:
+```bash
+cd little-lemon-capstone
+npm install
+```
+Start the development server:
+```bash
+npm start
+```
+The app will run on http://localhost:3000
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open the app in your browser
+2. Fill in Customer Information
+3. Enter Reservation Details
+4. Click Book Table
+5. View all bookings in the All Bookings table below
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contributing
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# little-lemon-capstone
-Front-end Capstone Project: Little Lemon restaurant table booking app built with React.
->>>>>>> 88c8afd8e0630a09c1213f1b0638d7ec348edbe2
+This project is a personal assignment for the Coursera Front-End Developer Capstone.
